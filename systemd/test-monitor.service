@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitor process "test" and report to monitoring server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/test-monitor.sh

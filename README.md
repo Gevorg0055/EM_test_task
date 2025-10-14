@@ -12,4 +12,3 @@ sudo systemctl enable --now test-monitor.timer
 
 
 ```
-
