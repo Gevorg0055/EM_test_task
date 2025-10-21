@@ -1,0 +1,2 @@
+# Terraform lock files
+.terraform.lock.hcl
